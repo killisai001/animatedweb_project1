@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nimbus Sans L";
+}
+
+body,
+html {
+  width: 100%;
+height: 100%;
+}
+
+#main {
+  width: 100%;
+}
+
+#nav {
+  padding: 20px 10vw;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+#nleft {
+  display: flex;
+  gap: 40px;
+}
+
+#nav #centreatag {
+  position: absolute;
+  font-size: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hero {
+  width: 100%;
+  margin-top: 15vw;
+  padding: 0vw 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sustain {
+  width: 10vw;
+}
+#sustain p {
+  text-transform: capitalize;
+  font-weight: 800;
+  opacity: 0.5;
+  line-height: 1;
+  font-size: 14px;
+  margin: 10px 0;
+}
+#sustain #susimagewrapper {
+  width: 100%;
+  height: 15vw;
+  position: relative;
+  overflow: hidden;
+}
+
+#susimagewrapper img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 140%;
+    height: 140%;object-fit: cover;
+}
+
+#ephemeral{
+    width: 30vw;
+    min-height: 42vw;
+    /* background-color: red; */
+    position: relative;
+}
+
+ #ephemeral h1{
+        font-size: 6vw;
+        font-weight: 400;
+        letter-spacing: -.4vw;
+        line-height: 1;
+}
+
+#ephemeral #headings{
+    position: absolute;
+   top: -23%;
+   left: -20%;
+
+}
+
+
+#ephemeral img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ephemeral p{
+    margin-top: 30px;
+    font-size: 1.3vw;
+    letter-spacing:-.07vw; 
+    line-height: 1.3;
+    width: 40%;
+}
+#imagentext{
+    width: fit-content;
+    height: fit-content;
+}
+#visit{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#circlev{
+    height: 3vw;
+    width: 3vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+
+
+
